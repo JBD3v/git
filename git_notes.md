@@ -14,3 +14,18 @@ git config --list
 git init
 git status
 ```
+
+## Track New files
+
+```power_shell
+git add <file_names or . for all files in current dir>
+git commit 
+git status
+```
+
+## Aliases
+
+```power_shell
+git config --global alias.i init
+git i
+```
