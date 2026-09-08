@@ -43,4 +43,4 @@ git checkout -b my_branch_1 # create my_branch_1 from current branch and swith t
 git switch <branch>     # change to branch
 ```
 
-b1b1b1
+b2b2b2
