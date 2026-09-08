@@ -42,3 +42,5 @@ git clone <URL>
 git checkout -b my_branch_1 # create my_branch_1 from current branch and swith to my_branch_1
 git switch <branch>     # change to branch
 ```
+
+b1b1b1
