@@ -15,7 +15,7 @@ git init
 git status
 ```
 
-## Track New files
+## Track and Store Changes
 
 ```power_shell
 git add <file_names or . for all files in current dir>
