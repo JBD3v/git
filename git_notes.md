@@ -41,6 +41,20 @@ git clone <URL>
 ```power_shell
 git checkout -b my_branch_1 # create my_branch_1 from current branch and swith to my_branch_1
 git switch <branch>     # change to branch
+git branch              # list current branches
+branch -d <branch>      # delete branch
 ```
 
-b2b2b2
+## Push to remote repo
+
+```power_shell
+git push origin <branch>    # we push our branch to "origin" which points to the remote repository 
+```
+
+Pull Request - proposal to merge changes from one branch into another
+
+## Pull
+
+```power_shell
+git pull        # pulls most recent changes from current branch on remote repo
+```
