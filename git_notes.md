@@ -2,7 +2,7 @@
 
 ## Configure Git
 
-```power_shell
+```powershell
 git config --global user.name "Jerome.Bark"
 git config --global user.email "jerome.bark@fastmail.com"
 git config --list
@@ -10,14 +10,14 @@ git config --list
 
 ## New repo
 
-```power_shell
+```powershell
 git init
 git status
 ```
 
 ## Track and Store Changes
 
-```power_shell
+```powershell
 git add <file_names or . for all files in current dir>
 git commit 
 git status
@@ -25,20 +25,20 @@ git status
 
 ## Aliases
 
-```power_shell
+```powershell
 git config --global alias.i init
 git i
 ```
 
 ## Clone
 
-```power_shell
+```powershell
 git clone <URL>
 ```
 
 ## Branch
 
-```power_shell
+```powershell
 git checkout -b my_branch_1 # create my_branch_1 from current branch and swith to my_branch_1
 git switch <branch>     # change to branch
 git branch              # list current branches
@@ -47,7 +47,7 @@ branch -d <branch>      # delete branch
 
 ## Push to remote repo
 
-```power_shell
+```powershell
 git push origin <branch>    # we push our branch to "origin" which points to the remote repository 
 ```
 
@@ -55,6 +55,19 @@ Pull Request - proposal to merge changes from one branch into another
 
 ## Pull
 
-```power_shell
+```powershell
 git pull        # pulls most recent changes from current branch on remote repo
+```
+
+## Merge
+
+```powershell
+git switch/checkout <merge-receiving branch>
+git merge <branch with changes to receive>
+```
+
+## Show,
+
+```powershell
+git show            # show changes on bcurrent branch
 ```
