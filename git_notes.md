@@ -66,7 +66,7 @@ git switch/checkout <merge-receiving branch>
 git merge <branch with changes to receive>
 ```
 
-## Show,
+## Show
 
 ```powershell
 git show            # show changes on bcurrent branch
