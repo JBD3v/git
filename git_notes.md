@@ -71,3 +71,13 @@ git merge <branch with changes to receive>
 ```powershell
 git show            # show changes on bcurrent branch
 ```
+
+## Delete Branches that were removes from remote
+
+```shell
+git fetch --prune       # remove any remote-tracking branches which no longer exist on the remote
+git branch -vv          # lists all local branches including the upstream (remote) branch each local branch is tracking
+git branch -vv | grep -v origin | awk '{print $1}' | xargs git branch -d    # deletes only fully merged branches
+git branch -vv | grep -v origin | awk '{print $1}' | xargs git branch -D    # deletes also branches that are not fully merged
+git branch -vv          # lists all local branches including the upstream (remote) branch each local branch is tracking
+```
