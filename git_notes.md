@@ -72,6 +72,12 @@ git merge <branch with changes to receive>
 git show            # show changes on bcurrent branch
 ```
 
+## Delte branch from remote
+
+```shell
+git push origin --delete <branch>
+```
+
 ## Delete Branches that were removes from remote
 
 ```shell
